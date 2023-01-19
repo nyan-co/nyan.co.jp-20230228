@@ -16,7 +16,7 @@ export default class MyDocument extends Document {
               sizes='32x32'
               href='favicon.png'
             />
-
+            <meta name='robots' content='noindex, nofollow' />
             <link rel='manifest' href='/manifest.json' />
           </Head>
 
