@@ -2,22 +2,22 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'NYAN-LLC-c1ec97cdf1aa431fab7c638dd56befef',
+  rootNotionPageId: 'a2b0978dd94046bdabc2d857abe6b354',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'にゃーん合同会社｜Nyan LLC.',
+  name: 'にゃーん合同会社｜NYAN CO.',
   domain: 'nyan.co.jp',
-  author: 'にゃーん合同会社｜Nyan LLC.',
+  author: 'にゃーん合同会社｜NYAN CO.',
 
   // open graph metadata (optional)
-  description: 'にゃーん合同会社｜Nyan LLC.',
+  description: 'にゃーん合同会社｜NYAN CO.',
 
   // social usernames (optional)
-  twitter: 'yoshi1125hisa',
+  //   twitter: 'yoshi1125hisa',
   github: 'nyan-co',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
