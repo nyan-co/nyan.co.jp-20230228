@@ -29,7 +29,6 @@ export const PageHead: React.FC<
         content='width=device-width, initial-scale=1, shrink-to-fit=no'
       />
 
-      <meta name='robots' content='index,follow' />
       <meta property='og:type' content='website' />
 
       {site && (
@@ -79,6 +78,7 @@ export const PageHead: React.FC<
       <meta property='og:title' content={title} />
       <meta name='twitter:title' content={title} />
       <title>{title}</title>
+
     </Head>
   )
 }
